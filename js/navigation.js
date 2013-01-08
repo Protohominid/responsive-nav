@@ -53,3 +53,6 @@ ResponsiveNav = function (nav, breakPoint, navControlText) {
 		checkNav();
 	});
 };
+$(".nav").each(function(){
+	new ResponsiveNav($(this), 640, "Menu");
+});
